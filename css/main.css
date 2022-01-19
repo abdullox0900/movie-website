@@ -1,0 +1,38 @@
+.header {
+     padding: 30px;
+     background-color: rgba(8, 6, 32, 0.897);
+}
+
+.header__title {
+     color: #fff;
+     text-align: center;
+}
+
+.container-ccc {
+     max-width: 1250px;
+}
+
+.form__select {
+     max-width: 15%;
+}
+
+.list {
+     margin: -15px;
+     margin-top: 8%;
+     padding: 0;
+     list-style: none;
+}
+
+.list__item {
+     position: relative;
+     top: 0;
+     margin: 15px;
+     max-width: 380px;
+     transition: all 0.3s ease-in-out;
+}
+
+.list__item:hover {
+     top: -5px;
+     box-shadow: 0 6px 12px -4px rgb(0 0 0 / 24%);
+     -moz-box-shadow: 0 6px 12px -4px rgba(0, 0, 0, .24);
+}
